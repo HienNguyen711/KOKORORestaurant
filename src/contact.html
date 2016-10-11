@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>KOKORO</title>
+  <meta name="viewport" content="width=device-width,initiall-scale=1"/>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/contact.css">
+<link rel="shortcut icon" type="image/png" href="http://cdn.tapmates.com/assets/img/ico-heart.png"/>
+</head>
+<body>
+  <!-- Start div wrapper -->
+  <div id="wrapper">
+
+    <!-- Start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <h1><i>KOKORO</i> </h1>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="index.html" >Home </a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="ourteam.html">Our team </a></li>
+            <li><a href="contact.html" class="activehome">Contact us </a></li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+<br>
+  <div id="googleMap" style="width:100%;height:420px;"></div>
+
+<div id="add">
+<h2>KOKORO restaurant</h2><br>
+<p>Helsinki 01, Helsinki, Finland</p>
+<p>Tel:+38512345</p>
+<p>Erect your taste</p>
+</div>
+
+
+      <div id="form-div">
+        <form class="form" id="form1">
+
+          <p class="name">
+            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+          </p>
+
+          <p class="email">
+            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+          </p>
+
+          <p class="text">
+            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+          </p>
+
+
+
+
+
+          <div class="submit">
+            <input type="submit" value="SEND" id="button-blue"/>
+            <div class="ease"></div>
+          </div>
+        </form>
+      </div>
+
+<footer>
+  <div class="container">
+    <div class="copyright">
+      &copy; 2016 <a href="#">HienNguyen</a> All Rights Reserved.
+    </div>
+
+    <div class="downmenu">
+      <ul>
+        <li><a href="#"><img src="http://www.freeiconspng.com/uploads/facebook-icon--basic-round-social-iconset--s-icons-7.png" width="40px" height="40px"></a></li>
+        <li><a href="#"><img src="http://icons.iconarchive.com/icons/sicons/basic-round-social/512/twitter-icon.png" width="40px" height="40px"></a></li>
+        <li><a href="#"><img src="http://www.freeiconspng.com/uploads/instagram-icon-circle-vector-logo-10.png" width="40px" height="40px"></a></li>
+
+      </ul>
+    </div>
+
+
+  </div>
+</footer>
+</div>
+      <!-- Google Maps -->
+
+      <script src="https://maps.googleapis.com/maps/api/js"></script>
+      <script>
+      var myCenter = new google.maps.LatLng(60.201373, 24.934041);
+
+      function initialize() {
+      var mapProp = {
+        center: myCenter,
+        zoom: 5,
+        scrollwheel: false,
+        draggable: false,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+      var marker = new google.maps.Marker({
+        position: myCenter,
+      });
+
+      marker.setMap(map);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+      </script>
+
+</body>
+</html>

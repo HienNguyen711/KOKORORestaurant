@@ -1,0 +1,307 @@
+
+* {
+	margin: 0;
+	padding: 0;
+
+
+
+}
+body{
+	background-image: url('http://www.kokorosushi.fi/img/upload/wallpaper/bg.png');
+}
+
+
+
+#wrapper {
+	width: 1366px;
+	margin: 0 auto;
+}
+.active
+{
+	background-color: #FFF;
+}
+.activehome {
+	background-color: #2C3E50;
+	border-radius: 5px;
+	border-radius: 5px;
+	border-radius: 5px;
+	color: #FFF;
+}
+.container {
+	width: 1024px;
+	margin: 0 auto;
+
+}
+
+
+/* Header */
+
+header {
+	width: 100%;
+	height: 90px;
+	background-color: #34495E;
+
+}
+
+header .logo {
+	float: left;
+	margin-top: 20px;
+}
+
+header .logo h1 {
+	font-size: 2.2em;
+	color: #FFF;
+}
+
+header .logo h1 i {
+		color: #FFF;
+	margin-right: 10px;
+	font-size: 1.3em;
+font-family: Papyrus, fantasy;
+
+
+}
+
+/* Nav */
+
+header nav ul {
+	list-style: none;
+	float: right;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 37px 6px 0 0;
+}
+
+header nav ul li a {
+	color: #E0FFF8;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px;
+	-webkit-transition: background-color .5s;
+	-moz-transition: background-color .5s;
+	transition: background-color .5s;
+}
+
+header nav ul li a:hover {
+	background-color: #2C3E50;
+	border-radius: 5px;
+	color: #FFF;
+cursor: url('http://lh4.googleusercontent.com/-rBeG9sLCXqY/UDzHcuVMSxI/AAAAAAAAJrQ/IQNSUZsxGXU/s1600/lefty172.gif'), progress;
+}
+
+
+
+/* Section */
+
+section {
+	width: 100%;
+	height: 220px;
+	background-color: #2ECC71;
+	color: #FFF;
+	overflow: hidden;
+}
+
+section .container div {
+	margin-top: 30px;
+	float: left;
+}
+
+section .container div .icon {
+	width: 60px;
+	height: 60px;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 50px;
+	text-align: center;
+	line-height: 59px;
+	font-size: 1.7em;
+	text-shadow: 0 0 1px rgba(0,0,0,.5);
+	-webkit-transition: border-radius .7s;
+	-moz-transition: border-radius .7s;
+	transition: border-radius .7s;
+}
+
+section .container div .icon:hover
+{
+	border-radius: 10px;
+}
+
+section .container div .description
+{
+	width: 268px;
+	text-align: left;
+	margin-left:  12px;
+}
+
+section .container div .description h3 {
+	font-size: 19px;
+}
+section .container div .description p {
+	font-size: 12px;
+}
+
+/* Footer */
+
+footer {
+	width: 100%;
+	height: 100px;
+	background-color: #2C3E50;
+	clear:both;
+}
+
+footer .container .copyright {
+	float: left;
+	margin-top: 44px;
+	font-size: 14px;
+	color: #EEE;
+}
+
+footer .container .copyright a {
+	text-decoration: none;
+	color: #EEE;
+	-webbkit-transition: color .3s;
+	-moz-transition: color .3s;
+	transition: color .3s;
+}
+
+footer .container .copyright a:hover,
+footer .container .downmenu ul li a:hover {
+	color: #2B445D;
+}
+
+footer .container .downmenu {
+	float: right;
+}
+
+footer .container .downmenu ul {
+	list-style: none;
+}
+
+footer .container .downmenu ul li {
+	display: inline-block;
+	margin: 42px 0 0 15px;
+}
+
+footer .container .downmenu ul li a {
+	text-decoration: none;
+	color: #FFF;
+	font-size: 14px;
+	-webbkit-transition: color .3s;
+	-moz-transition: color .3s;
+	transition: color .3s;
+}
+
+.content
+{
+	max-width:980px;
+	margin:auto;
+}
+
+
+
+
+#video
+{
+width: 200px;
+float: left;
+
+}
+#new
+{
+width: 500px;
+
+clear:right;
+}
+
+
+
+
+html,body{
+	font-family:Verdana,sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	font-weight:inherit
+	}
+
+h1,h2
+{font-family:"Segoe UI",Arial,sans-serif;
+}
+
+
+h1,h2
+{
+	font-weight:400;
+	margin:10px 0;
+}
+
+
+img
+{
+	margin-bottom:-5px;
+	}
+	a
+	{
+		color:inherit;
+	}
+	#video
+	{
+	  float:left;
+	  width: 500px;
+	padding-top: 60px;
+	  margin-top: 10px;
+	  text-align: center;
+
+
+
+	}
+	#new {
+
+		padding-left:200px;
+		padding-right:35px;
+		padding-top:60px;
+		padding-bottom:50px;
+		width: 700px;
+
+
+
+	  margin-top:10px;
+		margin-left: 600px;
+	  -moz-border-radius: 7px;
+	  -webkit-border-radius: 7px;
+	}
+
+
+	#location
+	{
+	  font-family: 'Montserrat', sans-serif;
+	  color: #333;
+	  font-size: 18px;
+
+
+
+	  width: 250px;
+
+	}
+
+	#location-name {
+	  font-size: 19px;
+	}
+
+	#location-desc {
+
+	  font-size: 18px;
+	}
+
+	#location-bar-text {
+	  font-family: 'Montserrat', sans-serif;
+	  color: #333;
+
+	  font-size: 30px;
+
+
+	}
+#location-menu{
+	padding-left: 40px;
+	text-align: center;
+}
